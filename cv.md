@@ -36,6 +36,7 @@ function createPhoneNumber(numbers){
   return numberForm;}
 ```
 [codewars example](https://www.codewars.com/kata/525f50e3b73515a6db000b83/train/javascript "example of a solution on the site")
+----------
 2. Second task:
 Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
 * solution:
