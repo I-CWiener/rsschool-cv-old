@@ -7,7 +7,7 @@
 3. 🌇                       Belarus, Vitebsk
 -------------------     ----------------------------
 
-# Profile #
+# Briefly About Myself:#
 In these courses, I set myself the goal and task of getting acquainted with the profession of "JS/Front-end developer" for a change in professional activity
 
 Education
