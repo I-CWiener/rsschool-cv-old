@@ -1,0 +1,16 @@
+html, body {
+2    font-family: Arial, serif;
+3    font-size: 16px;
+4    margin: 0;
+5    padding: 0;
+6}
+7table {
+8    border-collapse: collapse;
+9}
+10table.border td, table.border th {
+11    padding: 5px;
+12    border: 1px solid #c0c0c0;
+13}
+14table.border th {
+15    background: #e0e0e0;
+16}
