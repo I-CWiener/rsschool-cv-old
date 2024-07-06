@@ -1,16 +1,213 @@
-html, body {
-2    font-family: Arial, serif;
-3    font-size: 16px;
-4    margin: 0;
-5    padding: 0;
-6}
-7table {
-8    border-collapse: collapse;
-9}
-10table.border td, table.border th {
-11    padding: 5px;
-12    border: 1px solid #c0c0c0;
-13}
-14table.border th {
-15    background: #e0e0e0;
-16}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Fira Sans", sans-serif;
+  color: #323131;
+  -webkit-text-stroke: 1px #6c38cc;
+}
+
+h2 {
+  font-family: "Fira Sans", sans-serif;
+  color: #f2e8c9;
+}
+
+h3 {
+  font-family: "Fira Sans", sans-serif;
+  color: #f2e8c9;
+  text-decoration: underline;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+a {
+  color: #f2e8c9;
+  text-decoration: none;
+}
+
+.big {
+  font-size: 24px;
+  font-family: "Fira Sans", sans-serif;
+  -webkit-text-stroke: 1px #6c38cc;
+}
+
+/* Параметры линии */
+.line {
+  border-bottom: 1px solid rgba(241, 222, 222, 5);
+}
+.rLine {
+  border-bottom: 1px solid rgba(128, 0, 255, 5);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+/*Левый блок элементов*/
+.lSide {
+  display: flex;
+  flex-direction: column;
+  background: #9c80f7;
+  border: 1px solid #6c38cc;
+  flex-grow: 2;
+  opacity: 0.8;
+}
+
+.item {
+  text-align: center;
+}
+/* Параметры фото*/
+.foto {
+  width: 360px;
+  align-self: center;
+}
+.radius {
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 4px rgba(242, 232, 201, 5);
+}
+/* параметры контактов*/
+.contacts {
+  color: #f2e8c9;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  list-style-type: none;
+  text-align: left;
+}
+/* параметры скиллов*/
+
+.container-skills {
+  width: 100%;
+  background-color: #fdfcf9;
+}
+.skills {
+  font-size: 40px;
+  text-align: left;
+  padding-right: 20px;
+  line-height: 50px;
+  color: #1d1c1b;
+}
+
+.html {
+  width: 40%;
+  background-color: #3eb489;
+}
+.css {
+  width: 30%;
+  background-color: #3eb489;
+}
+.js {
+  width: 10%;
+  background-color: #3eb489;
+}
+
+.rSide {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #6c38cc;
+  justify-content: space-between;
+  gap: none;
+  flex-grow: 6;
+}
+/*меню навигации */
+header {
+  background-color: #379683;
+  flex-grow: 0;
+}
+.nav {
+  background-color: #379683;
+  color: #0b0b0b;
+}
+
+.mainMenu {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  gap: 30px;
+  list-style-type: none;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  justify-content: center;
+}
+.mainMenu li {
+  display: inline-flex;
+}
+
+.mainMenu a {
+  text-decoration: none;
+  color: #f2e8c9;
+  transition: all 0.4s linear;
+}
+
+.mainMenu a:hover {
+  box-sizing: border-box;
+  border-bottom: 1px solid #f2e8c9;
+  font-weight: bold;
+}
+
+.mainMenu:active {
+  text-decoration: none;
+}
+
+main {
+  background-color: #f2e8c9;
+  flex-grow: 4;
+}
+
+.code {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  gap: 30px;
+  justify-content: space-evenly;
+  border: 1px solid #6c38cc;
+  padding: 2px;
+}
+
+.example {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #6c38cc;
+  width: 400px;
+  opacity: 0.8;
+  background: rgb(241, 241, 237);
+  justify-content: space-around;
+}
+.task {
+  font-size: 16px;
+  color: #1c1b21;
+}
+
+footer {
+  background-color: #379683;
+  align-items: flex-end;
+  flex-grow: 0;
+}
+.lMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  list-style-type: none;
+}
+
+.ed {
+  text-align: left;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.CWar {
+  background-color: #379683;
+}
