@@ -1,111 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="images/icon.ico"/>
+    <link rel="shortcut icon" href="img/icon.ico" />
   </head>
   <body>
     <div class="container">
       <div class="lSide">
         <div class="foto item">
-          <img src="images/foto.png" alt="foto" class="radius" />
+          <img src="img/foto.png" alt="foto" class="radius" />
         </div>
         <div class="item">
           <div class="line"></div>
-          <article id="Contacts"><p><h2>Contacts</h2></p></article>
+          <article id="Contacts"><h2>Contacts</h2></article>
           <div class="line"></div>
           <ul class="contacts">
             <li>
               <a href="mailto:I.C.WienerOnly@gmail.com"
-                >&#9993 I.C.WienerOnly@gmail.com</a
+                >&#9993; I.C.WienerOnly@gmail.com</a
               >
             </li>
-            <li> &#9743 +375 (29) 895-27-94</li>
-            <li>&#127968 Belarus, Vitebsk</li>
+            <li>&#9743; +375 (29) 895-27-94</li>
+            <li>&#127968; Belarus, Vitebsk</li>
           </ul>
         </div>
         <div class="can item">
           <div class="line"></div>
-          <article id="Skills"><p><h2>Skills</h2></p></article>
+          <article id="Skills"><h2>Skills</h2></article>
           <div class="line"></div>
-            <p><h3>HTML</h3></p>
-                <div class="container-skills">
-                    <div class="skills html">40%</div>
-                </div>
+          <h3>HTML</h3>
+          <div class="container-skills">
+            <div class="skills html">40%</div>
+          </div>
 
-            <p><h3>CSS</h3></p>
-                <div class="container-skills">
-                    <div class="skills css">30%</div>
-                </div>
+          <h3>CSS</h3>
+          <div class="container-skills">
+            <div class="skills css">30%</div>
+          </div>
 
-            <p><h3>JavaScript</h3></p>
-                <div class="container-skills">
-                    <div class="skills js">10%</div>
-                </div>
+          <h3>JavaScript</h3>
+          <div class="container-skills">
+            <div class="skills js">10%</div>
+          </div>
         </div>
       </div>
 
       <div class="rSide item">
         <header>
-            <div>
-                <nav class="nav">
-                    <ul class="mainMenu">
-                        <li><a href="#Contacts">Contacts</a></li>
-                        <li><a href="#Skills">Skills</a></li>
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#Education">Education</a></li>
-                        <li><a href="#Experience">Experience</a></li>
-                    </ul>
-                </nav>
-            </div>
+          <div>
+            <nav class="nav">
+              <ul class="mainMenu">
+                <li><a href="#Contacts">Contacts</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Experience">Experience</a></li>
+              </ul>
+            </nav>
+          </div>
         </header>
         <main>
-        <div class="item">
-            <p><h1>Alexandr Chalychev</h1></p>
+          <div class="item">
+            <h1>Alexandr Chalychev</h1>
             <div class="rLine"></div>
-            <article id="About"><p>In these courses, I set myself the goal and task of getting acquainted with the profession o
-                f "JS/Front-end developer" for a change in professional activity</p></article>
-        </div>
-        <div class="rLine"></div>
-        <div>
-          <article id="Education"><p class="big">Education</p></article>
+            <article id="About">
+              <p>
+                In these courses, I set myself the goal and task of getting
+                acquainted with the profession o f "JS/Front-end developer" for
+                a change in professional activity
+              </p>
+            </article>
+          </div>
+          <div class="rLine"></div>
+          <div>
+            <article id="Education"><p class="big">Education</p></article>
             <div class="rLine"></div>
             <ul class="ed">
-              <li class="ed">2006-2010 : Technical operation of telecommunications systems and networks; 
-                BELARUSIAN STATE ACADEMY OF COMMUNICATION (Vitebsk)</li>
-                
-               <li class="ed"> 2010-2014 : Information Technology and Management Engineer; 
-                    BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS (Minsk)</li>
+              <li class="ed">
+                2006-2010 : Technical operation of telecommunications systems
+                and networks; BELARUSIAN STATE ACADEMY OF COMMUNICATION
+                (Vitebsk)
+              </li>
+
+              <li class="ed">
+                2010-2014 : Information Technology and Management Engineer;
+                BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS
+                (Minsk)
+              </li>
             </ul>
-        </div>
-        <div class="rLine"></div>
-        <div class="item">
-          <article id="Experience"><p class="big">Experience</p></article>
-           <div class="line"></div>
-           <div class="code">
-            <div class="example">
-                <div class="task">First task: Write a function that accepts an array of 10 integers (between 0 and 9), 
-                    that returns a string of those numbers in the form of a phone number.</div>
+          </div>
+          <div class="rLine"></div>
+          <div class="item">
+            <article id="Experience"><p class="big">Experience</p></article>
+            <div class="line"></div>
+            <div class="code">
+              <div class="example">
+                <div class="task">
+                  First task: Write a function that accepts an array of 10
+                  integers (between 0 and 9), that returns a string of those
+                  numbers in the form of a phone number.
+                </div>
                 <div class="line"></div>
                 <p>solution:</p>
-                      <pre>
+                <pre>
                         <code> 
   function createPhoneNumber(numbers){
   let numberForm="(xxx) xxx-xxxx";
-  for(let i=0; i&ltnumberForm.length; i++){
+  for(let i=0; i  numberForm.length; i++){
   numberForm=numberForm.replace("x", numbers[i] );}
   return numberForm;}
                          </code> 
                       </pre>
-<div class="CWar"> <a href="https://www.codewars.com/kata/541c8630095125aba6000c00/train/javascript">"example of a solution on the codewars site"</a></div>
-            </div>
-            <div class="example">
-                <div class="task">Second task: Given n, take the sum of the digits of n. 
-                    If that value has more than one digit, continue reducing in this way until a single-digit n
-                    umber is produced. The input will be a non-negative integer.</div>
+                <div class="CWar">
+                  <a
+                    href="https://www.codewars.com/kata/541c8630095125aba6000c00/train/javascript"
+                    >"example of a solution on the codewars site"</a
+                  >
+                </div>
+              </div>
+              <div class="example">
+                <div class="task">
+                  Second task: Given n, take the sum of the digits of n. If that
+                  value has more than one digit, continue reducing in this way
+                  until a single-digit n umber is produced. The input will be a
+                  non-negative integer.
+                </div>
                 <div class="line"></div>
                 <p>solution:</p>
                 <pre>
@@ -113,26 +135,38 @@
   function digitalRoot(n) {
   let sum=0;
   x=String(n);
-  for(let i=0; i<x.length; i++){sum+=Number(x[i]);}
+  for(let i=0; i  x.length; i++){sum+=Number(x[i]);}
   if (sum>9) {sum=digitalRoot(sum);} 
   return (sum)
 
                   </code>
                 </pre>
-                <div class="CWar"> <a href="https://www.codewars.com/kata/541c8630095125aba6000c00/train/javascript">"example of a solution on the codewars site"</a></div>
+                <div class="CWar">
+                  <a
+                    href="https://www.codewars.com/kata/541c8630095125aba6000c00/train/javascript"
+                    >"example of a solution on the codewars site"</a
+                  >
+                </div>
+              </div>
             </div>
-            
-           </div>
-
-        </div>
+          </div>
         </main>
         <footer>
-        <div>
-          <ul class="lMenu">
-            <li><a href="https://rs.school/courses/javascript-ru"><img src="images/js.png" alt="RSS_link"/></a></li>
-            <li><h3>2024</h3></li>
-            <li><a href="https://github.com/i-cwiener/"><img src="images/github.png" alt="gitHub_link"/></a></li>
-        </div>
+          <div>
+            <ul class="lMenu">
+              <li>
+                <a href="https://rs.school/courses/javascript-ru"
+                  ><img src="img/js.png" alt="RSS_link"
+                /></a>
+              </li>
+              <li><h3>2024</h3></li>
+              <li>
+                <a href="https://github.com/i-cwiener/"
+                  ><img src="img/github.png" alt="gitHub_link"
+                /></a>
+              </li>
+            </ul>
+          </div>
         </footer>
       </div>
     </div>
