@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+  width: 310px;
+  height: 114px;
+  /* h2 */
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+  /* color-light-xl */
+  color: #ffffff;
+}
+
+h2 {
+  width: 310px;
+  height: 114px;
+  /* h2 */
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+  /* color-light-xl */
+  color: #ffffff;
+}
+
+h3 {
+  /* h3 */
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  /* or 45px */
+  letter-spacing: 0.06em;
+  /* color-dark-l */
+  color: #545454;
+}
+
+h4 {
+  /* 8380 2880 8028 8791 7435 */
+  /* h4 */
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  /* color-dark-l */
+  color: #545454;
+}
+
+h5 {
+  /* h5 */
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  /* color-dark-l */
+  color: #545454;
+}
