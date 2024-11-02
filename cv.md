@@ -1,12 +1,13 @@
 
    
 ![foto](/images/foto.png)
-## Alexandr Chalyshev ##
+## <a id="title1">Alexandr Chalyshev</a>
 ==================================================================
 -------------------     ----------------------------
-1. 📧                       I.C.WienerOnly@gmail.com
-2. 📱                  +375(29)895-27-94
-3. 🌇                       Belarus, Vitebsk
+1. 📧                   I.C.WienerOnly@gmail.com
+2. :octocat:            https://github.com/I-CWiener
+3. 📱                   +375(29)895-27-94
+4. 🌇                   Belarus, Vitebsk
 -------------------     ----------------------------
 
 # Briefly About Myself:#
@@ -70,4 +71,7 @@ for(let i=0; i<x.length; i++){sum+=Number(x[i]);}
 * Achievements
     *  COMPLETED THE ROLLING SCOPES SCHOOL JS/FE PRE-SCHOOL 2024Q2 (JAVASCRIPT)
   ![certificate](/images/certificate.png)
+
+----------------------------------------
+[to UP!](#title1)
     
