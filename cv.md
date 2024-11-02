@@ -1,5 +1,6 @@
 
    
+![foto](/images/foto.png)
 ## Alexandr Chalyshev ##
 ==================================================================
 -------------------     ----------------------------
@@ -27,6 +28,7 @@ BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS (Minsk)
 Experience
 ----------
 1.  First task:
+
  Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.
 * solution:
 ```
@@ -40,6 +42,7 @@ function createPhoneNumber(numbers){
 
 ----------
 2. Second task:
+
 Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
 * solution:
 ```
